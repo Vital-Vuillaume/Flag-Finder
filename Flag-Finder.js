@@ -1,3 +1,9 @@
+//------Https------\\
+
+if (window.location.protocol != "https:") {
+  window.location.protocol="https:";
+}
+
 const body = document.querySelector('body');
 const countryBloc = document.querySelector('.countryBloc');
 const countryBtns = document.querySelectorAll('.btn');
