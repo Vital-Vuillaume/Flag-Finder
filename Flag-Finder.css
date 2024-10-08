@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+
+    min-height: 100vh;
+    color: white;
+    background-color: black;
+
+}
+
+.btnBloc {
+
+    display: flex;
+    gap: 5px;
+
+}
+
+.btn {
+
+    background: blue;
+    width: max-content;
+    border: none;
+    color: white;
+
+}
